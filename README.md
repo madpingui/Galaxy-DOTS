@@ -1,5 +1,5 @@
 # Galaxy DOTS
-This is a practice project for the efficient handling of entities using DOTS. 
+This is a practice project for the efficient handling of entities using Unity DOTS. 
 
 The project works by instantiating an entity every 0.05 seconds, which is a sphere with an emissive material (simulating a star). Each sphere is instantiated with a scale of 0, and a job is responsible for scaling it to a specific size. Each entity moves toward the center (black hole) and also has lateral movement, creating an orbital motion for each entity. When the entity reaches the center, it is destroyed. 
 
